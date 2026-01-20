@@ -103,5 +103,3 @@ Data Analytics & Business Intelligence
 📧 Email: ronitk95@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/ronit-kaushal-a40609177/
 
-## Repository Contents
-
