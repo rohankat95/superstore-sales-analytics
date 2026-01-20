@@ -8,13 +8,15 @@
 
 ## Project Overview
 
-This is an end-to-end analytics project built using **Python + SQL + Power BI**.
+This is an end-to-end **sales analytics and business intelligence** project built using **Python, SQL, and Power BI**.
+
+**Data Flow:** Raw Data → Python Cleaning → SQL Analysis → Power BI Dashboard
 
 The project covers:
 - Data cleaning using Python (Jupyter Notebook)
 - SQL-based table creation and KPI queries
 - Customer segmentation using **RFM Analysis**
-- Final interactive dashboard in Power BI
+- Final interactive dashboard in Power BI for business insights
 
 The dashboard helps understand sales performance, customer behavior, discount impact, and customer value segments.
 
@@ -22,11 +24,11 @@ The dashboard helps understand sales performance, customer behavior, discount im
 
 ## Business Objectives
 
-- Track overall **Sales, Profit, Orders, Customers**
-- Identify best and worst performing products and categories
+- Track overall **sales, profit, orders, and customers**
+- Identify top and bottom performing products and categories
 - Understand discount impact on revenue and profitability
 - Perform **RFM segmentation** to classify customers into business-ready segments
-- Support decision-making through interactive filtering and drill-down views
+- Support decision-making through interactive dashboards
 
 ---
 
@@ -61,28 +63,6 @@ The dashboard helps understand sales performance, customer behavior, discount im
 ## Dashboard Preview (PDF)
 
 **[View Dashboard PDF](./powerbi/Superstore_Sales_Analytics.pdf)**
-
----
-## 📁 Repository Contents
-superstore-sales-analytics/
-│
-├── data/
-│ ├── Superstore_Sales_Data.csv
-│ └── superstore_clean.csv
-│
-├── notebooks/
-│ └── Superstore_Cleaning.ipynb
-│
-├── sql/
-│ ├── 01_create_table.sql
-│ ├── 02_kpi_queries.sql
-│ └── 03_rfm_segmentation.sql
-│
-├── powerbi/
-│ └── Superstore_Sales_Analytics.pdf
-│
-└── README.md
-
 
 ---
 
